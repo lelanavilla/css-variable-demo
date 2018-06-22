@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS Variable Demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+<!--3D ROTATION CSS VARIABLE CARD
+YOULL NEED :
+1- A RANGLE INPUT
+2. A CONTAINER TO HOLD WORDS AROUND THE CARD
+3.A SECTION OT HOLD THE LIST OF OTHER BOXES, EACH CONTAINING INPUT FIELDS-->
+
+<main class="card">
+    <aside class="slider">
+      <label>Move this slider for 3D effect</label>
+      <input class="card-slider" type="range" min"-50" max="50"
+   value="-50" step="5"/>
+     </aside>
+     <section class="color-boxes">
+       <div class="color-box" id="1"><input value="teal"/></div>
+       <div class="color-box" id="2"><input/></div>
+       <div class="color-box" id="3"><input/></div>
+       <div class="color-box" id="4"><input/></div>
+       <div class="color-box" id="5"><input/></div>
+       <div class="color-box" id="6"><input/></div>
+     </section>
+     <footer class="words-on-page">
+       Enter any color in the teal boxes<br/>
+       and box will change that color
+     </footer>
+   </main>
+        
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
